@@ -1,0 +1,92 @@
+#### joe made this: https://goel.io/joe
+#####=== IntelliJ .idea===#####
+.idea
+*.iml
+.run
+
+#####=== Java ===#####
+*.class
+
+# Package Files #
+#*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+#####=== Scala ===#####
+
+*.log
+
+# sbt specific
+.cache
+.history
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+project/target/
+project/project/target/
+
+healthcheck/target/
+util/target/
+test-reports/*
+
+logs/*
+tmp/*
+out/
+test-reports/
+.jvmopts
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+
+# Gatling Engine object
+gatling/**/Engine.scala
+
+#####=== Vim ===#####
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+*.html
+/results
+/test-output
+/test-results
+/allure-report
+/allure-results
+/build/reports/tests
+/errors
+
+#Keep here your personal preferences
+/src/main/resources/application.conf
+/src/main/resources/logback_local.xml
+
+# For personal stuff
+local/
+
+# Build Server Protocol (BSP)
+.bsp
+.bloop
+
+# Powershell
+*.ps1
+
+# scalameta
+null
+.metals
+metals.sbt
