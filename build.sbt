@@ -11,7 +11,7 @@ resolvers ++= Seq(
 )
 
 libraryDependencies ++= Seq(
-  "com.natera" %% "test-runner-core" % "4.17.2"
+  "com.natera" %% "test-runner-core" % "4.18.1"
 )
 
 scalacOptions ++= Seq(
